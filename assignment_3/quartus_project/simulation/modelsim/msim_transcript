@@ -1,0 +1,66 @@
+# Reading C:/altera/13.1/modelsim_ase/tcl/vsim/pref.tcl 
+# do assignment_3_run_msim_rtl_verilog.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Copying C:\altera\13.1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:\altera\13.1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vlog -vlog01compat -work work +incdir+D:/Code/embedded-systems/assignment_3 {D:/Code/embedded-systems/assignment_3/prime_number_count.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module prime_number_count
+# 
+# Top level modules:
+# 	prime_number_count
+# 
+vlog -reportprogress 300 -work work D:/Code/embedded-systems/assignment_3/dut.v
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module dut
+# 
+# Top level modules:
+# 	dut
+vlog -reportprogress 300 -work work D:/Code/embedded-systems/assignment_3/prime_number_count.v
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module prime_number_count
+# 
+# Top level modules:
+# 	prime_number_count
+vsim work.dut
+# vsim work.dut 
+# Loading work.dut
+# Loading work.prime_number_count
+step -current
+# Found the 2 th Prime, it is 3
+# Reject   4
+# Found the 3 th Prime, it is 5
+# Reject   6
+# Found the 4 th Prime, it is 7
+# Reject   8
+# Reject   9
+# Reject  10
+# Found the 5 th Prime, it is 11
+# Reject  12
+# Found the 6 th Prime, it is 13
+# Reject  14
+# Reject  15
+# Reject  16
+# Found the 7 th Prime, it is 17
+# Reject  18
+# Found the 8 th Prime, it is 19
+# Reject  20
+# Reject  21
+# Reject  22
+# Found the 9 th Prime, it is 23
+# Reject  24
+# Reject  25
+# Reject  26
+# Reject  27
+# Reject  28
+# ** Note: $finish    : D:/Code/embedded-systems/assignment_3/dut.v(18)
+#    Time: 9560 ps  Iteration: 1  Instance: /dut
+# 1
+# Break in Module dut at D:/Code/embedded-systems/assignment_3/dut.v line 18

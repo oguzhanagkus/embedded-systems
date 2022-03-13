@@ -1,0 +1,6 @@
+module prime_checker(
+	input clock,
+	input [31:0] number,
+	output output_ready,
+	output result
+);

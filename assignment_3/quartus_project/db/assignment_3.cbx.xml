@@ -1,0 +1,7 @@
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="assignment_3">
+		<CBX_INST_ENTRY INSTANCE_NAME="|prime_number_count|altsyncram:prime_number_rtl_0" CBX_FILE_NAME="altsyncram_unt1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|prime_number_count|lpm_divide:Mod0" CBX_FILE_NAME="lpm_divide_65m.tdf"/>
+	</PROJECT>
+</LOG_ROOT>

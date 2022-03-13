@@ -1,0 +1,5 @@
+
+State Machine - |prime_number_count|state
+Name state.S_INC 
+state.S_CHECK 0 
+state.S_INC 1 

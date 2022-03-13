@@ -1,0 +1,43 @@
+m255
+K3
+13
+cModel Technology
+Z0 dD:\Code\embedded-systems\assignment_3\simulation\modelsim
+vdut
+I]oMj92RT0lM1goac]RJA>3
+VeDB?A`H:oi9`OcEgz`8]S0
+Z1 dD:\Code\embedded-systems\assignment_3\simulation\modelsim
+w1621449291
+8D:/Code/embedded-systems/assignment_3/dut.v
+FD:/Code/embedded-systems/assignment_3/dut.v
+L0 3
+Z2 OV;L;10.1d;51
+r1
+31
+Z3 o-work work -O0
+!i10b 1
+!s100 25L7C[;EiSfk?A?n?W7RH3
+!s85 0
+!s108 1621449562.617000
+!s107 D:/Code/embedded-systems/assignment_3/dut.v|
+!s90 -reportprogress|300|-work|work|D:/Code/embedded-systems/assignment_3/dut.v|
+!s101 -O0
+vprime_number_count
+!i10b 1
+!s100 8V7RzHA8JfIICU70WjD?E0
+IW6Pke6@a<<eOX2YJEzD1`1
+VNJ8T6:V?J8_^<[D4N<JaH0
+R1
+w1621449229
+8D:/Code/embedded-systems/assignment_3/prime_number_count.v
+FD:/Code/embedded-systems/assignment_3/prime_number_count.v
+L0 1
+R2
+r1
+!s85 0
+31
+!s108 1621449564.520000
+!s107 D:/Code/embedded-systems/assignment_3/prime_number_count.v|
+!s90 -reportprogress|300|-work|work|D:/Code/embedded-systems/assignment_3/prime_number_count.v|
+!s101 -O0
+R3
