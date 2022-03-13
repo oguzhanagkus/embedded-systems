@@ -1,0 +1,5 @@
+module my_function(
+	input		[7:0] x,
+	input		[7:0]	shift,
+	output	[7:0] result
+);

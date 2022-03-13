@@ -1,0 +1,38 @@
+`timescale 1ns/10ps
+
+module adder_testbench();
+  
+reg [7:0] input_1;
+reg [7:0] input_2;
+wire [8:0] result;
+	 
+adder inst(
+	.input_1(input_1),
+	.input_2(input_2),
+	.result(result));
+
+integer i;
+integer j;
+	
+initial
+	begin
+		$display("     Input 1         Input 2          Result     ");
+		$display("-----------------------------------------------");
+    
+		input_1 = 8'd0;	input_2 = 8'd0;
+		
+		
+		for (i = 0; i < 2/*55*/; i = i +1)
+			begin
+				input_1 = i;
+				for (j = 0; j < 2/*55*/; j = j + 1)
+					begin
+						input_2 = j;
+						#10;
+					end
+			end
+	end
+
+initial $monitor("%d [%b]  %d [%b]  %d [%b]", input_1, input_1, input_2, input_2, result, result);
+
+endmodule

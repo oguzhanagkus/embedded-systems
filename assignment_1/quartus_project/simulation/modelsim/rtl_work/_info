@@ -1,0 +1,44 @@
+m255
+K3
+13
+cModel Technology
+Z0 dD:\Code\embedded-systems\assignment_1\quartus_project\simulation\modelsim
+vmy_function
+IO=IejV[9=]Ybmc;cj4Y<32
+Vej`5FH;k54[JnIIh4Z?aP3
+Z1 dD:\Code\embedded-systems\assignment_1\quartus_project\simulation\modelsim
+w1618695327
+8D:/Code/embedded-systems/assignment_1/quartus_project/my_function.v
+FD:/Code/embedded-systems/assignment_1/quartus_project/my_function.v
+L0 1
+Z2 OV;L;10.1d;51
+r1
+31
+o-vlog01compat -work work -O0
+!i10b 1
+!s100 f;2UTN`cNd__4QK6z^QN93
+!s85 0
+!s108 1619978983.136000
+!s107 D:/Code/embedded-systems/assignment_1/quartus_project/my_function.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/Code/embedded-systems/assignment_1/quartus_project|D:/Code/embedded-systems/assignment_1/quartus_project/my_function.v|
+!s101 -O0
+!s92 -vlog01compat -work work +incdir+D:/Code/embedded-systems/assignment_1/quartus_project -O0
+vtestbench
+!i10b 1
+!s100 K3W:zff;[:HCXiHlMifMV1
+Igm9[aQH<@G_15kbg<eaM53
+VhGfW:390DM[oDMzegDH9`2
+R1
+w1617373208
+8D:/Code/embedded-systems/assignment_1/quartus_project/testbench.v
+FD:/Code/embedded-systems/assignment_1/quartus_project/testbench.v
+L0 3
+R2
+r1
+!s85 0
+31
+!s108 1619979004.828000
+!s107 D:/Code/embedded-systems/assignment_1/quartus_project/testbench.v|
+!s90 -reportprogress|300|-work|work|D:/Code/embedded-systems/assignment_1/quartus_project/testbench.v|
+!s101 -O0
+o-work work -O0

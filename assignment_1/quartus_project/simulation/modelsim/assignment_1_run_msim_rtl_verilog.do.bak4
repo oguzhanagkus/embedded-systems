@@ -1,0 +1,9 @@
+transcript on
+if {[file exists rtl_work]} {
+	vdel -lib rtl_work -all
+}
+vlib rtl_work
+vmap work rtl_work
+
+vlog -vlog01compat -work work +incdir+D:/Code/embedded-systems/assignment_1/quartus_project {D:/Code/embedded-systems/assignment_1/quartus_project/my_function.v}
+
