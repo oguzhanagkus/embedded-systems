@@ -1,0 +1,12 @@
+FPGA : Cyclone V - 5CGXFC5C6F27C7
+
+Proje oluşturma:
+- New project wizard
+- Project name
+- FPGA device select
+- Verilog HDL
+- Modelsim -> Tool/Options/EDA/Path
+- Compile
+- Add testbenchs
+- Add waves
+- Start tests
