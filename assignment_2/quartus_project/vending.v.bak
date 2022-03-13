@@ -1,0 +1,9 @@
+module vending(
+	input clock,
+	input S1,
+	input S2,
+	input S3,
+	output M1,
+	output M2,
+	output M3
+)

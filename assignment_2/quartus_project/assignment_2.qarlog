@@ -1,0 +1,18 @@
+Quartus II Archive log --	D:/Code/embedded-systems/assignment_2/quartus_project/assignment_2.qarlog
+
+Archive:	D:/Code/embedded-systems/assignment_2/quartus_project/assignment_2.qar
+Date:		Sun Apr 18 23:53:12 2021
+Quartus II 64-Bit		13.1.0 Build 162 10/23/2013 SJ Web Edition
+
+	=========== Files Selected: ===========
+D:/Code/embedded-systems/assignment_2/quartus_project/assignment_2.qpf
+D:/Code/embedded-systems/assignment_2/quartus_project/assignment_2.qsf
+D:/Code/embedded-systems/assignment_2/quartus_project/db/assignment_2.db_info
+D:/Code/embedded-systems/assignment_2/quartus_project/incremental_db/compiled_partitions/assignment_2.db_info
+D:/Code/embedded-systems/assignment_2/quartus_project/testbench.v
+D:/Code/embedded-systems/assignment_2/quartus_project/vending.v
+c:/altera/13.1/quartus/bin64/assignment_defaults.qdf
+	======= Total: 7 files to archive =======
+
+	================ Status: ===============
+All files archived successfully.
